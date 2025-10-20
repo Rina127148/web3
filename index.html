@@ -12,9 +12,9 @@
             <div class="header-mobile">
                 <div class="logo-title">
                     <div class="logo-container">
-                        <img src="frog.webp" alt="Лого" class="round-logo">
+                        <img src="https://avatars.mds.yandex.net/i?id=a9c36936ca84e31b86eeb6ade0f175d8_l-16429342-images-thumbs&n=13" alt="Лого" class="round-logo">
                     </div>
-                    <div class="site-title">Задание №3</div>
+                    <div class="site-title">Задание №4</div>
                 </div>
                 <button class="menu-toggle" aria-label="Open the menu">☰</button>
             </div>
@@ -62,88 +62,99 @@
                         Нумерованный список ссылок с подписями title:
                         <ol>
                             <li><a href="https://kubsu.ru/" title="Официальный сайт КубГУ">КубГУ</a></li>
-<li><a href="https://kubsu.ru/university" title="Информация об университете">Об университете</a></li>
+                            <li><a href="https://kubsu.ru/university" title="Информация об университете">Об университете</a></li>
                             <li><a href="https://kubsu.ru/education" title="Образовательные программы">Образование</a></li>
                         </ol>
                     </li>
                     <li><a href="ftp://user:password@example.com/file.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
                 </ol>
             </div>
-            
+
             <div class="content-block table-block" id="table">
-                <h2>Таблица</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Номер №</th>
-                            <th>Имя</th>
-                            <th>Фамилия</th>
-                            <th>Отчество</th>
-                            <th>Возраст</th>
-                            <th>Город</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Фролов</td>
-                            <td>Игорь</td>
-                            <td>Семёнович</td>
-                            <td>20</td>
-                            <td>Самара</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Щеглов</td>
-                            <td>Арсений</td>
-                            <td>Андреевич</td>
-                            <td>17</td>
-                            <td>Омск</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Вишневская</td>
-                            <td>Аглая</td>
-                            <td>Михайловна</td>
-                            <td>23</td>
-                            <td>Псков</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Ильин</td>
-                            <td>Фёдор</td>
-                            <td>Степанович</td>
-                            <td>20</td>
-                            <td>Екатеринбург</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Голикова</td>
-                            <td>Ольга</td>
-                            <td>Святославовна</td>
-                            <td>19</td>
-                            <td>Смоленск</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Уланов</td>
-                            <td>Константин</td>
-                            <td>Викторович</td>
-                            <td>20</td>
-                            <td>Норильск</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Литвинова</td>
-                            <td>Анастасия</td>
-                            <td>Дмитриевна</td>
-                            <td>18</td>
-                            <td>Кисловодск</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h2>Таблица с объединенными ячейками</h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">№</th>
+                                <th colspan="3" class="text-center">ФИО</th>
+                                <th rowspan="2">Возраст</th>
+                                <th rowspan="2">Город</th>
+                            </tr>
+                            <tr>
+                                <th>Фамилия</th>
+                                <th>Имя</th>
+                                <th>Отчество</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Фролов</td>
+                                <td>Игорь</td>
+                                <td>Семёнович</td>
+                                <td>20</td>
+                                <td>Самара</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Щеглов</td>
+                                <td>Арсений</td>
+                                <td>Андреевич</td>
+                                <td>17</td>
+                                <td>Омск</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Вишневская</td>
+                                <td>Аглая</td>
+                                <td>Михайловна</td>
+                                <td>23</td>
+                                <td>Псков</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Ильин</td>
+                                <td>Фёдор</td>
+                                <td>Степанович</td>
+                                <td>20</td>
+                                <td>Екатеринбург</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Голикова</td>
+                                <td>Ольга</td>
+                                <td>Святославовна</td>
+                                <td>19</td>
+                                <td>Смоленск</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Уланов</td>
+                                <td>Константин</td>
+                                <td>Викторович</td>
+                                <td>20</td>
+                                <td>Норильск</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Литвинова</td>
+                                <td>Анастасия</td>
+                                <td>Дмитриевна</td>
+                                <td>18</td>
+                                <td>Кисловодск</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="text-center">Итого записей:</td>
+                                <td colspan="2" class="text-center">7</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
             </div>
-            
+
             <div class="content-block form-block" id="form">
                 <h2>Форма</h2>
                 <form action="#" method="post">
@@ -156,7 +167,8 @@
                         <label for="phone">Телефон:</label>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
-					<div class="form-group">
+
+                    <div class="form-group">
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email" required>
                     </div>
@@ -208,12 +220,19 @@
             </div>
         </main>
         
-        <footer>
-            <p>&copy; Сергей Синица</p>
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; Сергей Синица</p>
+            </div>
         </footer>
     </div>
+
+    <script>
+        // JavaScript для мобильного меню
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
-
-
 
