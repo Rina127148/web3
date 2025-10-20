@@ -109,20 +109,54 @@ main {
     background-color: #f9f9f9;
 }
 
-table {
+/* Стили для таблицы из предыдущего кода */
+.table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 15px;
 }
 
-th, td {
+.table th, .table td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    vertical-align: middle;
 }
 
-th {
+.table th {
     background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table thead th {
+    background-color: #e3f2fd;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tfoot td {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Стили для подвала из предыдущего кода */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer .container {
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    color: #6c757d;
 }
 
 .links-block ol {
@@ -185,14 +219,6 @@ button {
 
 button:hover {
     background-color: #45a049;
-}
-
-footer {
-    background-color: #f0f0f0;
-    border-top: 1px solid #ddd;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto;
 }
 
 /* Планшетные стили */
